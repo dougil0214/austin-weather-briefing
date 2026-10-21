@@ -29,7 +29,7 @@ The weather forecast comes from NWS. AI generates only the clothing suggestions.
 | File | Purpose |
 |---|---|
 | `weather_briefing.py` | Retrieves and formats the forecast |
-| `test_ai.py` | Generates clothing advice, saves output, and sends notifications |
+| `generate_briefing.py` | Generates clothing advice, saves output, and sends notifications |
 | `requirements.txt` | Python dependencies |
 | `.gitignore` | Excludes credentials, temporary files, and generated output |
 
