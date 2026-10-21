@@ -58,20 +58,20 @@ The weather forecast comes from NWS. AI generates only the clothing suggestions.
 7. Ensure Ollama is running, then run:
 
    ```powershell
-   py test_ai.py
+   generate_briefing.py
    ```
 
 Running this script sends a notification to the configured Pushover account.
 
 ## Output
 
-The combined briefing is saved as `full_briefing.txt` beside `test_ai.py`.
+The combined briefing is saved as `full_briefing.txt` beside `generate_briefing.py`.
 
 The forecast module also creates `weather_briefing.txt` in the current working directory. Both files are overwritten on each run.
 
 ## Scheduling
 
-Create a Windows Task Scheduler task that runs `test_ai.py` using the full Python executable path.
+Create a Windows Task Scheduler task that runs `generate_briefing.py` using the full Python executable path.
 
 Set the project folder as “Start in” and add the desired daily triggers. The task must run under an account with access to the Pushover environment variables.
 
