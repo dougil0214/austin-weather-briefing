@@ -1,0 +1,16 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local credentials
+.env
+.env.*
+
+# Generated output
+weather_briefing.txt
+full_briefing.txt
+
+# Temporary Code Runner file
+tempCodeRunnerFile.py
