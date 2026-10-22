@@ -2,6 +2,7 @@ import requests
 import weather_briefing
 from pathlib import Path
 import os
+import emoji 
 
 # Identify which of the two periods is daytime.
 if weather_briefing.first_period["isDaytime"]:
@@ -24,6 +25,7 @@ if night_precipitation is None:
     night_precipitation_text = "Unavailable"
 else:
     night_precipitation_text = f"{night_precipitation}%"
+
 
 
 # AI Prompt
