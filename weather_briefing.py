@@ -99,7 +99,7 @@ if first_period['shortForecast']:
     elif "sunny" in first_period['shortForecast'].lower():
         day_emoji = emoji.emojize(":sun_with_face:")
     elif "clear" in first_period['shortForecast'].lower():
-        day_emoji = emoji.emojize(":moon:")
+        day_emoji = emoji.emojize(":crescent_moon:")
     elif "hot" in first_period['shortForecast'].lower():
         day_emoji = emoji.emojize(":thermometer:")
     elif "cold" in first_period['shortForecast'].lower():
